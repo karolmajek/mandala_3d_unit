@@ -1,0 +1,7 @@
+<launch>
+    <node name="unit_driver" type="encoder_udp_node" pkg="mandala_unit_driver"/>
+    <node name="unit_motor" type="set_vel.py" pkg="mandala_unit_driver">
+       <param name="unit_ip" value="192.168.1.10"/>
+       <param name="default_vel" value="25"/>
+    </node>
+</launch>
