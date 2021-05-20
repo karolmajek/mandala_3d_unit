@@ -26,3 +26,7 @@ To run 3D unit use below commands:
 source devel/setup.bash
 roslaunch src/mandala_piap_unit_driver/mandala_unit_launch/launch/mandala_unit.launch
 ```
+
+# Pinout
+
+[Pinout in  docs](docs/Pinout.pdf)
